@@ -131,9 +131,11 @@ nav#menu li {
 	margin: 3px;
 	border-radius: 10px;
 	transition: background-color 2s;
+    transition: transform 1s;
 }
 nav#menu li:hover {
 	background-color: rgb(82, 24, 28);
+    transform: RotateZ(-15deg); 
 }
 nav#menu a {
 	color: rgb(242, 211, 33);
@@ -141,6 +143,7 @@ nav#menu a {
 }
 nav#menu a:hover {
 	text-decoration: underline;
+    color: rgb(0, 0, 0);
 }
 
 div.sumario {
